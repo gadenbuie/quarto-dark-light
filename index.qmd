@@ -1,0 +1,22 @@
+---
+title: "Quarto-dark-light"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+::: {#fig-premade-image}
+
+::: {.when-quarto-light}
+![](plot-light.png)
+:::
+
+::: {.when-quarto-dark}
+![](plot-dark.png)
+:::
+
+The caption for both light and dark plots.
+:::
+
+Images from <https://mickael.canouil.fr/posts/2023-05-30-quarto-light-dark/>
